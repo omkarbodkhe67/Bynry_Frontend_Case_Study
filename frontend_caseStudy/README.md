@@ -1,12 +1,66 @@
-# React + Vite
+# Profile Viewer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Profile Viewer is a React-based application that displays user profiles with images and descriptions. Users can search for profiles, view their locations on a map, and toggle between dark and light modes.
 
-Currently, two official plugins are available:
+## Features
+- Display a list of user profiles with images and descriptions.
+- Search functionality to filter profiles.
+- Clickable button to show user location on an interactive map.
+- Dark mode toggle for better UI experience.
+- Responsive grid-based layout with hover effects.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Technologies Used
+- React
+- Leaflet (for interactive maps)
+- Bootstrap (for styling)
+- CSS (custom styling for dark/light modes and responsiveness)
 
-## Expanding the ESLint configuration
+## Installation & Setup
+1. Clone the repository:
+   ```sh
+   git clone <repository-url>
+   cd profile-viewer
+   ```
+2. Install dependencies:
+   ```sh
+   npm install
+   ```
+3. Start the development server:
+   ```sh
+   npm start
+   ```
+4. Open `http://localhost:3000` in your browser.
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Dependencies
+Ensure you have the following installed:
+```sh
+npm install react-leaflet leaflet bootstrap
+```
+
+## Folder Structure
+```
+profile-viewer/
+│-- public/
+│-- src/
+│   │-- components/
+│   │-- styles.css
+│   │-- App.js
+│   │-- index.js
+│-- package.json
+│-- README.md
+```
+
+## Deployment
+To deploy the application:
+1. Build the project:
+   ```sh
+   npm run build
+   ```
+2. Deploy using GitHub Pages, Vercel, Netlify, or another hosting service.
+
+## Contributing
+Feel free to submit issues or pull requests to improve the application!
+
+## License
+This project is open-source and available under the [MIT License](LICENSE).
+
