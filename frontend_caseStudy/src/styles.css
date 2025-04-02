@@ -1,0 +1,142 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: "Arial", sans-serif;
+  }
+  
+  .app-container {
+    min-height: 100vh;
+    padding: 20px;
+    background-color: #f8f9fa;
+    transition: background 0.3s ease-in-out, color 0.3s ease-in-out;
+  }
+   h1{
+     color:#bbb
+   }
+  
+  /* Dark Mode */
+  .dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background: #222;
+    border-radius: 8px;
+  }
+  
+  .btn-toggle {
+    background: #ff9800;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background 0.3s;
+  }
+  
+  .btn-toggle:hover {
+    background: #e68900;
+  }
+  
+  /* Search Box */
+  .search-box {
+    display: block;
+    width: 100%;
+    max-width: 400px;
+    margin: 15px auto;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    outline: none;
+  }
+  
+  /* Profile Grid */
+  .profile-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  /* Profile Card */
+  .profile-card {
+    background: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s, background 0.3s;
+  }
+  
+  .dark-mode .profile-card {
+    background: #222;
+  }
+  
+  .profile-card:hover {
+    transform: scale(1.05);
+    background: #f1f1f1;
+  }
+  
+  .dark-mode .profile-card:hover {
+    background: #333;
+  }
+  
+  /* Profile Image */
+  .profile-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #ff9800;
+    transition: border-color 0.3s;
+  }
+  
+  .profile-card:hover .profile-image {
+    border-color: #e68900;
+  }
+  
+  /* Profile Text */
+  .profile-name {
+    font-size: 1.2rem;
+    margin: 10px 0;
+  }
+  
+  .profile-description {
+    font-size: 0.9rem;
+    color: #666;
+  }
+  
+  .dark-mode .profile-description {
+    color: #bbb;
+  }
+  
+  /* View Button */
+  .btn-view {
+    background: #007bff;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .btn-view:hover {
+    background: #0056b3;
+  }
+  
+  /* Map Container */
+  .map-container {
+    margin-top: 30px;
+    text-align: center;
+  }
+  
+  .map-container h2 {
+    margin-bottom: 15px;
+  }
+  
