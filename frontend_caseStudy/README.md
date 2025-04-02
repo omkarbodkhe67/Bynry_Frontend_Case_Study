@@ -27,7 +27,7 @@ Profile Viewer is a React-based application that displays user profiles with ima
    ```
 3. Start the development server:
    ```sh
-   npm start
+   npm run dev
    ```
 4. Open `http://localhost:3000` in your browser.
 
