@@ -42,7 +42,7 @@ const profiles = [
 ];
 
 const ProfileMapApp = () => {
-    const [selectedLocation, setSelectedLocation] = usefileState(null);
+    const [selectedLocation, setSelectedLocation] = useState(null);
     const [darkMode, setDarkMode] = useState(false);
     const [search, setSearch] = useState("");
   
